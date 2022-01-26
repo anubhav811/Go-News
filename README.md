@@ -28,16 +28,19 @@ There is also a floating action button that is used to save any news article to 
 
 This is the saved news page where user can view their saved news articles.
 
-## App Architecture
+## _App Architecture_
+
 - This app is build purely in accordance to MVVM Architecure . 
 
 ## _Libraries / APIs Used_ 
+
 - [Glide](https://github.com/bumptech/glide)
 - [Retrofit](https://square.github.io/retrofit/)
 - [Smooth Bottom Bar](https://github.com/ibrahimsn98/SmoothBottomBar)
 - [News API](https://newsapi.org/)
 
-## My learnings
+## _My learnings_
+
 #### - Implementation of MVVM Database alongwith Room and Retrofit 
 #### - Implementation of NavGraphs.
 #### - This is my first app in Kotlin , so I got to work around with coroutines and also learn much more about this language.
