@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Anubhav Chachra/AndroidStudioProjects/NewsApi_MVVMRetrofit/app/src/main/res/layout/activity_news.xml" value="0.264" />
-        <entry key="..\:/Users/Anubhav Chachra/AndroidStudioProjects/NewsApi_MVVMRetrofit/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Anubhav Chachra/AndroidStudioProjects/GoNews/app/src/main/res/layout/activity_news.xml" value="0.264" />
+        <entry key="..\:/Users/Anubhav Chachra/AndroidStudioProjects/GoNews/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/Anubhav Chachra/AndroidStudioProjects/GoNews/app/src/main/res/menu/nav_drawer_menu.xml" value="0.12708333333333333" />
       </map>
     </option>
   </component>

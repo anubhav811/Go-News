@@ -1,35 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/news_nav_graph"
-    app:startDestination="@id/articleFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/news_nav_graph"
+    app:startDestination="@id/breakingNewsFragment">
 
     <fragment
-        android:id="@+id/articleFragment"
-        android:name="com.anubhav.newsapi_mvvmretrofit.ui.fragments.ArticleFragment"
-        android:label="ArticleFragment" />
-    <fragment
-        android:id="@+id/breakingNewsFragment2"
-        android:name="com.anubhav.newsapi_mvvmretrofit.ui.fragments.BreakingNewsFragment"
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.anubhav.gonews.ui.fragments.BreakingNewsFragment"
         android:label="BreakingNewsFragment" >
         <action
-            android:id="@+id/action_breakingNewsFragment2_to_articleFragment"
-            app:destination="@id/articleFragment" />
+            android:id="@+id/action_breakingNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
-        android:id="@+id/savedNewsFragment2"
-        android:name="com.anubhav.newsapi_mvvmretrofit.ui.fragments.SavedNewsFragment"
+        android:id="@+id/savedNewsFragment"
+        android:name="com.anubhav.gonews.ui.fragments.SavedNewsFragment"
         android:label="SavedNewsFragment" >
         <action
-            android:id="@+id/action_savedNewsFragment2_to_articleFragment"
-            app:destination="@id/articleFragment" />
+            android:id="@+id/action_savedNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
-        android:id="@+id/searchNewsFragment2"
-        android:name="com.anubhav.newsapi_mvvmretrofit.ui.fragments.SearchNewsFragment"
+        android:id="@+id/searchNewsFragment"
+        android:name="com.anubhav.gonews.ui.fragments.SearchNewsFragment"
         android:label="SearchNewsFragment" >
         <action
-            android:id="@+id/action_searchNewsFragment2_to_articleFragment"
-            app:destination="@id/articleFragment" />
+            android:id="@+id/action_searchNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.anubhav.gonews.ui.fragments.ArticleFragment"
+        android:label="ArticleFragment" >
+        <argument
+            android:name="article"
+            app:argType="com.anubhav.gonews.models.Article" />
     </fragment>
 </navigation>
