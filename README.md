@@ -8,23 +8,23 @@ It can be used by anyone. It’s a news app and suitable for anyone.
 
 ## _User Interface_ 
 ### Breaking News 
-<img src="https://github.com/anubhav811/Go-News/blob/master/images/breaking_news.png" width="48">
+<img src="https://github.com/anubhav811/Go-News/blob/master/images/breaking_news.png" width="250">
 
 This is the home screen of the application which shows all the trending headlines . 
 
 ### Search News
-![alt text](https://github.com/anubhav811/Go-News/blob/master/images/search_news.png)
+<img src="https://github.com/anubhav811/Go-News/blob/master/images/search_news.png" width="250">
 
 This is the search page where user can search for headlines 
 
 ### Article Page
-![alt text](https://github.com/anubhav811/Go-News/blob/master/images/article.png)
+<img src="https://github.com/anubhav811/Go-News/blob/master/images/article_news.png" width="250">
 
 This is the article page that is shown when user taps on any news headline
 There is also a floating action button that is used to save any news article to a local database.
 
 ### Saved News
-![alt text](https://github.com/anubhav811/Go-News/blob/master/images/saved_news.png)
+<img src="https://github.com/anubhav811/Go-News/blob/master/images/saved_news.png" width="250">
 
 This is the saved news page where user can view their saved news articles.User can swipe the article left or right to delete it.
 ## _App Architecture_
