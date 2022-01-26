@@ -8,7 +8,7 @@ It can be used by anyone. It’s a news app and suitable for anyone.
 
 ## _User Interface_ 
 ### Breaking News 
-![alt text](https://github.com/anubhav811/Go-News/blob/master/images/breaking_news.png)
+<img src="https://github.com/anubhav811/Go-News/blob/master/images/breaking_news.png" width="48">
 
 This is the home screen of the application which shows all the trending headlines . 
 
