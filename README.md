@@ -14,15 +14,18 @@ This is the home screen of the application which shows all the trending headline
 
 #### Search News
 ![alt text](https://github.com/anubhav811/GoNews/blob/master/2_gonews.png?raw=true)
+
 This is the search page where user can search for headlines 
 
 #### Article Page
 ![alt text](https://github.com/anubhav811/GoNews/blob/master/2_gonews.png?raw=true)
+
 This is the article page that is shown when user taps on any news headline
 There is also a floating action button that is used to save any news article to a local database.
 
 #### Saved News
 ![alt text](https://github.com/anubhav811/GoNews/blob/master/2_gonews.png?raw=true)
+
 This is the saved news page where user can view their saved news articles.
 
 ## App Architecture
@@ -35,7 +38,7 @@ This is the saved news page where user can view their saved news articles.
 - [News API](https://newsapi.org/)
 
 ## My learnings
-#### Implementation of MVVM Database alongwith Room and Retrofit 
-#### Implementation of NavGraphs.
-#### This is my first app in Kotlin , so I got to work around with coroutines and also learn much more about this language.
+#### - Implementation of MVVM Database alongwith Room and Retrofit 
+#### - Implementation of NavGraphs.
+#### - This is my first app in Kotlin , so I got to work around with coroutines and also learn much more about this language.
 
