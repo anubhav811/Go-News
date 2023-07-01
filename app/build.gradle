@@ -77,6 +77,8 @@ dependencies {
     implementation 'org.ocpsoft.prettytime:prettytime:4.0.4.Final'
 
     implementation 'androidx.core:core-splashscreen:1.0.0-alpha02'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
 
 
 }

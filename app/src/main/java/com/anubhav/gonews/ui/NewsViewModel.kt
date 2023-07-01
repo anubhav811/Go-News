@@ -44,7 +44,7 @@ class NewsViewModel(
                 val newArticles = resultResponse.articles
                     oldArticles?.addAll(newArticles)
             }
-                return Resource.Success(breakingNewsResponse?: resultResponse)
+                return Resource.Success(breakingNewsResponse ?: resultResponse)
 
             }
         }
@@ -60,14 +60,14 @@ class NewsViewModel(
     private fun handleSearchNewsResponse(response: Response<NewsResponse>) : Resource<NewsResponse> {
         if(response.isSuccessful) {
             response.body()?.let { resultResponse ->
-//                searchNewsPage++
+                searchNewsPage++
                 if(searchNewsResponse == null){
                     searchNewsResponse = resultResponse
                 }
                 else{
-                    searchNewsResponse?.articles?.clear()
+                    val oldArticles  = searchNewsResponse?.articles
                     val newArticles = resultResponse.articles
-                    searchNewsResponse?.articles?.addAll(newArticles)
+                    oldArticles?.addAll(newArticles)
                 }
                 return Resource.Success(searchNewsResponse ?:resultResponse)
 

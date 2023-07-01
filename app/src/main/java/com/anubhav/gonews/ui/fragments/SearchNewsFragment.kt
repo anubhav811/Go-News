@@ -24,6 +24,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import okhttp3.internal.notify
 
 class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
 
@@ -49,7 +50,6 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
                 delay(SEARCH_NEWS_TIME_DELAY)
                 editable?.let {
                     viewModel.searchNews(editable.toString())
-
                 }
             }
 
@@ -116,8 +116,6 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
             if (shouldPaginate) {
                 viewModel.searchNews(etSearch.text.toString())
                 isScrolling = false
-            } else {
-
             }
         }
 

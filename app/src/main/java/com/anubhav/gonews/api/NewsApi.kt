@@ -13,7 +13,7 @@ interface NewsAPI {
         @Query("country")
         countryCode: String = "us",
         @Query("page")
-        pageNumber: Int = 1,
+        pageNumber: Int ,
         @Query("apiKey")
         apiKey: String = API_KEY
     ): Response<NewsResponse>
